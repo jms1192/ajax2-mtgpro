@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<nav>
+    <a href="/logout/">logout</a>
+    <button id="home" onclick = "location.href='http://localhost:8000/store/home/{{ s_id }}'" >Home</button>
+    <button id="home" onclick = "location.href='http://localhost:8000/store/home/{{ s_id }}'" >Stats</button>
+</nav>
+
+
+{% endblock %}
